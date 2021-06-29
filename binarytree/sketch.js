@@ -14,9 +14,9 @@ function setup() {
   depthSlider = createSlider(1, 10, 5)
   degreeSlider = createSlider(0, 360, 0, 1);
   minstepSlider = createSlider(1, 20, 10, 0.5);
-  depthSlider.position(0, 0)
-  degreeSlider.position(0, 20)
-  minstepSlider.position(0, 40)
+  depthSlider.position(10, 10)
+  degreeSlider.position(10, 30)
+  minstepSlider.position(10, 50)
 }
 
 function tree(curdepth, maxdepth, deg) {
@@ -52,9 +52,9 @@ function draw() {
   textSize(15);
   noStroke()
   fill(255);
-  text('tree depth', 150, 10);
-  text('node rotation', 150, 30);
-  text('min leaf step', 150, 50);
+  text('tree depth', 150, 20);
+  text('node rotation', 150, 40);
+  text('min leaf step', 150, 60);
   stroke(255)
 
 
